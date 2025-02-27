@@ -10,7 +10,7 @@ frame.Parent = screenGui
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 20)
 title.Position = UDim2.new(0, 0, 0, -20)
-title.Text = "Delux Key"
+title.Text = "Ninja Key"
 title.TextColor3 = Color3.new(1, 1, 1)
 title.BackgroundColor3 = Color3.new(0, 0, 0)
 title.Parent = frame
@@ -91,11 +91,6 @@ GetKeyButton.Size = UDim2.new(0.5, 0, 0.5, 0)
 GetKeyButton.Position = UDim2.new(0.5, 0, 0.5, 0)
 GetKeyButton.Text = "Pegar Key"
 GetKeyButton.Parent = frame
---------------------------------------------------------------------------
-SubmitButton.MouseButton1Click:Connect(function()
-    local KeySystem = KeySystem.Text
-    if KeySystem == "Delux Free" then   
-screenGui:Destroy()
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
